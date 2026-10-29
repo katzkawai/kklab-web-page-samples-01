@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="KKLab web page samples 01 - simple HTML and CSS landing page"
+    />
+    <title>KKLab Sample</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">KKLab</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#features">Features</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__content">
+          <p class="eyebrow">Simple &amp; Modern</p>
+          <h1>シンプルで美しいWebページ</h1>
+          <p class="lead">
+            HTML と CSS だけで作成した、軽快で読みやすいサンプルページです。
+            GitHub Pages で公開できる構成になっています。
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#about">詳しく見る</a>
+            <a class="button button--secondary" href="#contact">お問い合わせ</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>美しさとわかりやすさを両立</h2>
+          </div>
+          <div class="feature-grid" id="features">
+            <article class="card">
+              <div class="icon" aria-hidden="true">✦</div>
+              <h3>シンプル設計</h3>
+              <p>余計な複雑さを省き、内容に集中できる見た目にしています。</p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">⚡</div>
+              <h3>高速表示</h3>
+              <p>画像やライブラリを使わず、軽いページとして表示されます。</p>
+            </article>
+            <article class="card">
+              <div class="icon" aria-hidden="true">📱</div>
+              <h3>レスポンシブ</h3>
+              <p>スマートフォンからデスクトップまで、自然に見えるレイアウトです。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase">
+        <div class="container showcase__grid">
+          <div>
+            <p class="eyebrow">Why it works</p>
+            <h2>必要な要素だけを整理</h2>
+            <p>
+              目的に合わせて情報を段階的に見せる構成にし、訪問者が迷わず
+              コンテンツを理解できるようにしました。
+            </p>
+          </div>
+          <div class="info-panel">
+            <ul>
+              <li>HTML と CSS のみで構成</li>
+              <li>GitHub Pages へそのまま公開可能</li>
+              <li>アクセシブルな見出しと配色</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--cta">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>お問い合わせ</h2>
+          </div>
+          <a class="button button--primary" href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__content">
+        <p>© 2026 KKLab</p>
+      </div>
+    </footer>
+  </body>
+</html>
